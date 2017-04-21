@@ -1,0 +1,7 @@
+[Activity]
+name = HacketyHack
+activity_version = 2
+bundle_id = org.hackety.hack
+exec = sugar-activity activity.HacketyHack
+icon = activity-hackety
+license = BSD 

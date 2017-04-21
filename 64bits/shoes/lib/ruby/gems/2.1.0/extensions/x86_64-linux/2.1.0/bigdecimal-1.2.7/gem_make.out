@@ -1,0 +1,17 @@
+/usr/local/bin/ruby -r ./siteconf20150521-7164-tjl6l.rb extconf.rb
+checking for labs() in stdlib.h... yes
+checking for llabs() in stdlib.h... yes
+checking for struct RRational in ruby.h... yes
+checking for rb_rational_num() in ruby.h... no
+checking for rb_rational_den() in ruby.h... no
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling bigdecimal.c
+linking shared-object bigdecimal.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20150521-7164-sbqmi8
+installing default bigdecimal libraries

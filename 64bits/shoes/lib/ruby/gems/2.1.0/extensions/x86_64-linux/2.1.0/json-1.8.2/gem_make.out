@@ -1,0 +1,10 @@
+/usr/local/bin/ruby -r ./siteconf20150521-7164-c5t2hg.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+make "DESTDIR=" install
+installing default libraries
